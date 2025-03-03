@@ -195,23 +195,25 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background: #E1A140;
+    background: #f6f3f3;
+    box-shadow: 0 0 0 1px black;
     box-sizing: border-box;
 }
 
 .noticias__bienvenida {
     padding: 1em;
     width: 100%;
-    color: #fef6f6;
     box-sizing: border-box;
 }
 
 .noticias__bienvenida h3{
     font-size: 1.5em;
+    color: #242121;
 }
 
 .noticias__bienvenida p{
     margin-top: 1em;
+    color: #242121;
 }
 
 .img__informacion img{
