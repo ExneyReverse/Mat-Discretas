@@ -75,7 +75,12 @@ body{
 }
 
 .list__item a {
+    color: black;
     text-decoration: none;
+}
+
+.list__item a:hover{
+    text-decoration: underline;
 }
 
 .menu__img img{

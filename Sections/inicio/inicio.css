@@ -78,6 +78,10 @@ body{
     text-decoration: none;
 }
 
+.list__item a:hover{
+    text-decoration: underline;
+}
+
 .menu__img img{
     margin: 1em;
     width: 50px;
@@ -123,7 +127,10 @@ body{
 /* ESTILO DEL CUERPO DE LA PAGINA */
 
 .cuerpo{
-    margin-top: 1em
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* FIN DEL ESTILO DEL CUERPO DE LA LETRA */
@@ -191,14 +198,13 @@ body{
 }
 
 .seccion__bienvenida{
-    width: 100%;
+    width: 80%;
     height: 100%;
     padding: 1em;
+    border-top: 5px solid #E1A140;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background: #f6f3f3;
-    box-shadow: 0 0 0 1px black;
     box-sizing: border-box;
 }
 
@@ -334,12 +340,12 @@ video{
 
     .info__not{
         font-size: 1.2em;
-        width: 42%;
+        width: 40%;
     }
 
     .info__uni{
         font-size: 1.2em;
-        width: 42%;
+        width: 30%;
     }
 }
 
